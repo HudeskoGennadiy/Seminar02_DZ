@@ -3,11 +3,12 @@
 // 782 -> 8
 // 918 -> 1
 
-
-int x = new Random().Next(100, 999);
-int x1 = x / 10;
-int x2 = x1 % 10;
-Console.WriteLine($"Сгенерированно случайное число  {x}");
-Console.WriteLine($"Вторая цифра этого числа:  {x2}");
-
-
+void SecondNumber()
+    {
+    int x = new Random().Next(100, 999);
+    int x1 = x / 10;
+    int x2 = x1 % 10;
+    Console.WriteLine($"Сгенерированно случайное число  {x}");
+    Console.WriteLine($"Вторая цифра этого числа:  {x2}");
+    }
+SecondNumber();
